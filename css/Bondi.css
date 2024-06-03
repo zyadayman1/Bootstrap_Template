@@ -138,3 +138,22 @@ body {
     background-color: var(--dark-color);
 }
 /* end project */
+/* start Subscribe */
+.Subscribe {
+    background-color: var(--ylo-btn);
+}
+.Subscribe input[type="text"] {
+    border: none;
+    border-bottom: 1px solid white;
+}
+.Subscribe input[type="text"]:focus {
+    outline: none;
+}
+.Subscribe ::placeholder {
+    color: white;
+}
+.Subscribe input[type="submit"] {
+    background-color: var(--dark-color);
+    color: var(--ylo-btn);
+}
+/* end Subscribe */
