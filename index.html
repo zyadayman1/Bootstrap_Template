@@ -19,7 +19,7 @@
     <!-- start navbar -->
     <nav class="navbar navbar-expand-lg sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" href="#Home">
           <img src="image/logo.png" alt="logo" />
         </a>
         <button
@@ -37,19 +37,19 @@
         <div class="collapse navbar-collapse" id="main">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item active">
-              <a class="nav-link p-lg-3" href="#">Home</a>
+              <a class="nav-link p-lg-3" href="#Home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-lg-3" href="#">Services</a>
+              <a class="nav-link p-lg-3" href="#Services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-lg-3" href="#">Portfolio</a>
+              <a class="nav-link p-lg-3" href="#Portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-lg-3" href="#">About</a>
+              <a class="nav-link p-lg-3" href="#About">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link p-lg-3" href="#">Contact</a>
+              <a class="nav-link p-lg-3" href="#Contact">Contact</a>
             </li>
           </ul>
           <div class="search ps-3 pe-3">
@@ -62,7 +62,7 @@
     </nav>
     <!-- end navbar -->
     <!-- start landing -->
-    <div
+    <div id="Home"
       class="landing text-light d-flex justify-content-center align-items-center"
     >
       <div class="text-center">
@@ -75,7 +75,7 @@
     </div>
     <!-- end landing -->
     <!-- start features -->
-    <div class="features text-center pt-5 pb-5">
+    <div id="Services" class="features text-center pt-5 pb-5">
       <div class="container">
         <div class="main-title mt-5 mb-5 position-relative">
           <img class="mb-4" src="image/title.png" alt="title" />
@@ -133,7 +133,7 @@
     </div>
     <!-- end features -->
     <!-- start our-work -->
-    <div class="our-work text-center pt-5 pb-5">
+    <div id="Portfolio" class="our-work text-center pt-5 pb-5">
       <div class="container">
         <div class="main-title mt-5 mb-5 position-relative">
           <img class="mb-4" src="image/title.png" alt="title" />
@@ -241,7 +241,7 @@
     </div>
     <!-- end Stuff  -->
     <!-- start team -->
-    <div class="team text-center pb-5 pt-5">
+    <div id="About" class="team text-center pb-5 pt-5">
       <div class="container pb-5 pt-5">
         <h2 class="fw-bold">Meet The Team</h2>
         <p class="text-black-50 mb-5">
@@ -373,29 +373,125 @@
           </div>
         </div>
         <div class="d-flex justify-content-center mt-5 mb-5">
-            <button class="btn rounded-pill main-btn text-uppercase">More Stories </button>
+          <button class="btn rounded-pill main-btn text-uppercase">
+            More Stories
+          </button>
         </div>
       </div>
     </div>
     <!-- end Blog  -->
     <!-- start Subscribe -->
-    <div class="Subscribe pt-5 pb-5 text-center text-md-start">
-        <div class="container">
-            <form class="row">
-                <div class="col-md-6 col-lg-3">
-                    <div class="fw-bold fs-5 mb-3">Subscribe to our Newsletter:
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-7 mb-5">
-                    <input class="w-100 taxt-light bg-transparent" type="text" placeholder="Enter Email Address">
-                </div>
-                <div class="col-md-6 col-lg-2">
-                    <input class="btn rounded-pill" type="submit" value="Subscribe">
-                </div>
-            </form>
-        </div>
+    <div class="Subscribe pt-5 pb-4 text-center text-md-start">
+      <div class="container">
+        <form class="row">
+          <div class="col-md-6 col-lg-3">
+            <div class="fw-bold fs-5 mb-3">Subscribe to our Newsletter:</div>
+          </div>
+          <div class="col-md-6 col-lg-7 mb-5">
+            <input
+              class="w-100 taxt-light bg-transparent"
+              type="text"
+              placeholder="Enter Email Address"
+            />
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <input class="btn rounded-pill" type="submit" value="Subscribe" />
+          </div>
+        </form>
+      </div>
     </div>
     <!-- end Subscribe -->
+    <!-- start footer -->
+    <div
+      id="Contact"
+      class="footer pt-5 pb-5 text-white-50 text-center text-md-start"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="info mb-5">
+              <img class="mb-4" src="image/logo.png" alt="" />
+              <p class="mb-5">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
+                justo, lacinia eget consectetur sed, convallis at tellus.
+              </p>
+              <div class="copyright">
+                Created By <span>Graphberry</span>
+                <div>&copy; 2024 - <span>Bondi Inc</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="links">
+              <h5 class="text-light">Links</h5>
+              <ul class="list-unstyled lh-lg">
+                <li>Home</li>
+                <li>Our Services</li>
+                <li>Portfolio</li>
+                <li>Testimonials</li>
+                <li>Support</li>
+                <li>Terms and Condition</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6">
+            <div class="links">
+              <h5 class="text-light">About Us</h5>
+              <ul class="list-unstyled lh-lg">
+                <li>Sign In</li>
+                <li>Register</li>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="contact">
+              <h5 class="text-light">Contact Us</h5>
+              <p class="lh-lg mt-3 mb-5">
+                Get in touch with us via mail phone.We are waiting for your call
+                or message
+              </p>
+              <button class="btn rounded-pill main-btn w-100">
+                Zyeda226@gmail.com
+              </button>
+              <ul class="d-flex mt-5 list-unstyled gap-3">
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i
+                      class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"
+                    ></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer -->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/all.min.js"></script>
   </body>
