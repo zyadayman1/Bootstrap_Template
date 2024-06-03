@@ -122,3 +122,14 @@ body {
     max-width: 500px;
 }
 /* end Stuff */
+/* start team */
+.team {
+    background-color: var(--sec-color);
+}
+.team h2 {
+    color: var(--ylo-btn);
+}
+.team .box h4 {
+    background-color: var(--green-color);
+}
+/* end team */
